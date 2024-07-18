@@ -1,0 +1,17 @@
+{
+  "name": "terminal-app",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "terminal-app",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  }
+}
